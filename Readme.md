@@ -2,7 +2,7 @@ After cloning this repository use
      
      npm install
 
-Create 2 table( attributes are id and name ) in psql 
+Create 2 tables( attributes are id and name ) in psql. 1 for producer and another 1 for consumer
 
           CREATE TABLE name (
           user_id BIGSERIAL PRIMARY KEY,
