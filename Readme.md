@@ -2,12 +2,15 @@ After cloning this repository use
      
      npm install
 
-Create a table( attributes are id and name ) in psql and add your username, database name to the consumer.js and producer.js page.
+Create a table( attributes are id and name ) in psql 
 
           CREATE TABLE name (
           user_id BIGSERIAL PRIMARY KEY,
           name VARCHAR(50) NOT NULL
           );
+        
+
+Add your username, database name and password in the consumer.js and producer.js page.
 
 Start your docker locally on PC.
 
